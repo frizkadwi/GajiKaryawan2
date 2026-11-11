@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8FAFC"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PETUNJUK PENGGUNAAN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="#1E293B"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#334155"
+            android:lineSpacingExtra="8dp"
+            android:text="1. Buka dan jalankan aplikasi pada perangkat atau emulator.\n\n2. Pada menu utama, pilih menu Gaji Pegawai untuk masuk ke form perhitungan gaji.\n\n3. Masukkan data karyawan beserta jumlah hari kerja dengan benar.\n\n4. Pilih menu Petunjuk atau Tentang untuk melihat informasi aplikasi.\n\n5. Gunakan tombol Exit untuk keluar dari aplikasi dengan aman." />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="#3B82F6"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FORM PERHITUNGAN GAJI"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="#1E293B"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Induk Karyawan"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:inputType="number"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Karyawan"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etGajiPokok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Pokok"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etTunjanganJabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Jabatan"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etJumlahHariKerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Hari Kerja"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:inputType="number"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HITUNG GAJI"
+            android:backgroundTint="#3B82F6"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Bagian Hasil Output -->
+        <EditText
+            android:id="@+id/etTunjanganMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Makan"
+            android:background="#E2E8F0"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etTunjanganTransportasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Transportasi"
+            android:background="#E2E8F0"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etGajiKotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Kotor"
+            android:background="#E2E8F0"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etGajiBersih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Bersih"
+            android:background="#E2E8F0"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:backgroundTint="#64748B"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
